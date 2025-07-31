@@ -1,0 +1,111 @@
+:root {
+  --white: #fff;
+  --primary: #61ecbc;
+  --black: #182339;
+}
+
+html{
+  font-size: 62.5%;
+}
+
+body{
+  background-image: url('/bg.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 100vh;
+  font-family: "Outfit", sans-serif;
+}
+.container{
+  max-width: 60rem;
+  width: 95%;
+  margin: 0 auto;
+}
+.app-title{
+  color: var(--white);
+  font-size: 5rem;
+  margin-top: 5rem;
+  line-height: .8;
+}
+.app-title span{
+  display: block;
+  color: var(--primary);
+  font-size: 4.4rem;
+}
+.content{
+  margin-top: 6rem;
+  padding: 6rem 2rem;
+  background-color: var(--white);
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+  border-radius: 1rem;
+}
+
+.form,
+.field {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+.form label{
+  color: var(--black);
+  text-align: left;
+  font-size: 1.5rem;
+}
+.form select{
+  background-color: #ecebeb;
+  border: none;
+  padding: 1rem;
+  border-radius: 1rem;
+  font-size: 1.5rem;
+}
+.form [type="submit"]{
+  background-color: var(--primary);
+  color: var(--black);
+  padding: 1rem;
+  border: none;
+  border-radius: none;
+  font-size: 1.4rem;
+  font-weight: 900;
+  cursor: pointer;
+  text-transform: uppercase;
+  margin-top: 2rem;
+}
+
+.form [type="submit"]:hover{
+  background-color: #0cb387;
+}
+.error-message{
+  background-color: #f8d7da;
+  color: #721c24;
+  padding: 1rem;
+  border-radius: 1rem;
+  margin-top: 2rem;
+  font-size: 1.3rem;
+  
+}
+.result-wrapper {
+  margin-top: 5rem;
+}
+.result-wrapper h2 {
+  color: var(--black);
+  font-size: 3rem;
+  margin-bottom: 2rem;
+
+}
+.result {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  align-items: center;
+  gap: 1rem;
+}
+.result img {
+  max-width: 90%;
+}
+.result p{
+  font-size: 1.5rem;
+  text-align: justify;
+}
+.result p span {
+  font-weight: 700;
+  color: var(--black);
+}
