@@ -6,7 +6,6 @@ Una aplicación web moderna desarrollada con React y TypeScript que permite cons
 
 - Consulta precios en tiempo real de las top 20 criptomonedas por capitalización de mercado
 - Soporte para múltiples monedas (USD, EUR, GBP, MXN)
-- Interfaz rápida y responsiva
 - Spinner de carga con animación personalizada
 - Información detallada del precio incluyendo cambios porcentuales
 - Validación de formularios con manejo de errores
