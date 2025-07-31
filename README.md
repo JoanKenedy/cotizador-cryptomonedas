@@ -1,18 +1,18 @@
-# 💰 Cotizador de Criptomonedas
+# Cotizador de Criptomonedas
 
 Una aplicación web moderna desarrollada con React y TypeScript que permite consultar el precio en tiempo real de las principales criptomonedas en diferentes monedas fiduciarias.
 
-## 📋 Características
+## Características
 
-- 🔍 Consulta precios en tiempo real de las top 20 criptomonedas por capitalización de mercado
-- 💱 Soporte para múltiples monedas (USD, EUR, GBP, MXN)
-- ⚡ Interfaz rápida y responsiva
-- 🔄 Spinner de carga con animación personalizada
-- 📊 Información detallada del precio incluyendo cambios porcentuales
-- 🎯 Validación de formularios con manejo de errores
-- 📱 Diseño responsive
+- Consulta precios en tiempo real de las top 20 criptomonedas por capitalización de mercado
+- Soporte para múltiples monedas (USD, EUR, GBP, MXN)
+- Interfaz rápida y responsiva
+- Spinner de carga con animación personalizada
+- Información detallada del precio incluyendo cambios porcentuales
+- Validación de formularios con manejo de errores
 
-## 🛠️ Tecnologías Utilizadas
+
+## Tecnologías Utilizadas
 
 ### Frontend
 - **React 19.1.0** - Biblioteca de JavaScript para construir interfaces de usuario
@@ -28,7 +28,7 @@ Una aplicación web moderna desarrollada con React y TypeScript que permite cons
 - **ESLint** - Linter para JavaScript/TypeScript
 - **Vite Plugin React SWC** - Plugin para React con compilador SWC
 
-## 🚀 Instalación y Configuración
+## Instalación y Configuración
 
 ### Prerrequisitos
 - Node.js (versión 16 o superior)
@@ -99,33 +99,32 @@ Este proyecto utiliza la [CryptoCompare API](https://www.cryptocompare.com/api/)
 - `GET /data/top/mktcapfull?limit=20&tsym=USD` - Lista de criptomonedas
 - `GET /data/pricemultifull?fsyms={crypto}&tsyms={currency}` - Precio específico
 
-## 💡 Funcionalidades Clave
+## Funcionalidades Clave
 
-### 🔍 Búsqueda de Precios
+### Búsqueda de Precios
 - Selecciona una moneda fiduciaria (USD, EUR, GBP, MXN)
 - Selecciona una criptomoneda de la lista
 - Obtén información detallada del precio en tiempo real
 
-### 📊 Información Mostrada
+### Información Mostrada
 - Precio actual
 - Cambio en las últimas 24 horas (absoluto y porcentual)
 - Precio máximo y mínimo del día
 - Última actualización
 
-### ⚡ Manejo de Estado
+### Manejo de Estado
 El proyecto utiliza Zustand para un manejo de estado simple y eficiente:
 - Estado de carga
 - Lista de criptomonedas
 - Resultado de la consulta
 
-## 🎨 Estilos
+## Estilos
 
 - CSS personalizado con variables CSS para temas
 - Animaciones suaves para el spinner de carga
-- Diseño responsivo para dispositivos móviles y desktop
-- Interfaz moderna y minimalista
 
-## 🤝 Contribuir
+
+## Contribuir
 
 1. Fork el proyecto
 2. Crea una rama para tu feature (`git checkout -b feature/AmazingFeature`)
@@ -133,15 +132,8 @@ El proyecto utiliza Zustand para un manejo de estado simple y eficiente:
 4. Push a la rama (`git push origin feature/AmazingFeature`)
 5. Abre un Pull Request
 
-## 📄 Licencia
 
-Este proyecto es de código abierto y está disponible bajo la [Licencia MIT](LICENSE).
-
-## 👨‍💻 Autor
-
-**JoanKenedy** - [GitHub Profile](https://github.com/JoanKenedy)
-
-## 🙏 Agradecimientos
+## Agradecimientos
 
 - [CryptoCompare](https://www.cryptocompare.com/) por proporcionar la API
 - [Vite](https://vitejs.dev/) por la excelente herramienta de desarrollo
